@@ -1,6 +1,61 @@
+:root {
+    --brand-color: #00d2df;
+
+    --dark-10: #121212;
+    --dark-20: #151515;
+    --dark-30: #c4c4c4;
+    --dark-40: #ffffff;
+
+    --support-01: #2962ff;
+    --support-02: #0bb07b;
+    --support-03: #ffce52;
+    --support-04: #f03d3d;
+    --support-05: #e0e0e0;
+
+    --font-inter: 'Inter', sans-serif;
+}
+
 .container {
+    background-color: var(--dark-10);
+    font-family: var(--font-inter);
+}
+
+.container-header {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
+    background-color: var(--dark-10);
+}
+
+.container-aboutme {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: var(--dark-20);
+}
+
+.container-experience {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: var(--dark-10);
+}
+
+.container-projects {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: var(--dark-20);
+}
+
+.container-footer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: var(--dark-10);
 }

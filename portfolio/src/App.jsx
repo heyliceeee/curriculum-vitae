@@ -9,14 +9,21 @@ function App() {
         <p>Second Header</p>
       </div>
 
-      <br></br>
+      <div className="container-aboutme">
+        <p>About Me</p>
+      </div>
 
-      <p>About Me</p>
-      <p>Experience</p>
-      <p>Projects</p>
+      <div className="container-experience">
+        <p>Experience</p>
+      </div>
 
-      <br></br>
-      <p>Footer</p>
+      <div className="container-projects">
+        <p>Projects</p>
+      </div>
+
+      <div className="container-footer">
+        <p>Footer</p>
+      </div>
     </div>
   );
 }
