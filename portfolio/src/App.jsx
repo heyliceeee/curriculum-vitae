@@ -1,11 +1,12 @@
 import './App.css';
+import Header from './header/header';
 
 
 function App() {
   return (
     <div className="container">
       <div className="container-header">
-        <p>Header</p>
+        <Header itemPortfolio="Portfolio" itemHome="Home" itemAboutMe="About Me" itemExperience="Experience" itemProjects="Projects" />
         <p>Second Header</p>
       </div>
 
