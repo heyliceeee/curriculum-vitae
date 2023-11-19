@@ -3,7 +3,7 @@ import './header.css';
 
 function Header(props) {
     return (
-        <div className="container">
+        <div className="containerHeader">
             <div className="row">
                 <div className="itemPortfolio">{props.itemPortfolio}</div>
                 <div className="itemHome">{props.itemHome}</div>

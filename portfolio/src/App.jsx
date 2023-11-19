@@ -1,5 +1,7 @@
 import './App.css';
+
 import Header from './header/header';
+import SecondHeader from './secondHeader/secondHeader';
 
 
 function App() {
@@ -7,7 +9,7 @@ function App() {
     <div className="container">
       <div className="container-header">
         <Header itemPortfolio="Portfolio" itemHome="Home" itemAboutMe="About Me" itemExperience="Experience" itemProjects="Projects" />
-        <p>Second Header</p>
+        <SecondHeader itemHiIm="Hi👋, I'm" itemMyName="Alice Dias" itemJob="Degree in Software Engineering"/>
       </div>
 
       <div className="container-aboutme">
