@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+*.json linguist-language=JSON
+*.css linguist-language=CSS
