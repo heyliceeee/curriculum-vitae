@@ -2,7 +2,7 @@ import React from 'react';
 import './secondHeader.css';
 import { FiLinkedin } from "react-icons/fi";
 import { FiGithub } from "react-icons/fi";
-import urSVG from '../assets/illustration.svg';
+import urSVG from '../../assets/illustration.svg';
 
 
 function SecondHeader(props) {
