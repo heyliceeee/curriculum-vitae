@@ -9,7 +9,7 @@ upload photo
 ___
 
 ## ⚒️ Languages-Frameworks-Tools ⚒️
-- React
+- React (react-icons, react-router-dom)
 - Javascript
 ____
 
