@@ -2,7 +2,6 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/heyliceeee/portfolio)
 ![GitHub language count](https://img.shields.io/github/languages/count/heyliceeee/portfolio)
-![GitHub repo size](https://img.shields.io/github/repo-size/heyliceeee/portfolio)
 ___
 
 upload photo
