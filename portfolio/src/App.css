@@ -12,7 +12,7 @@
     --support-04: #f03d3d;
     --support-05: #e0e0e0;
 
-    --font-inter: 'Inter', sans-serif;
+    --font-inter: 'Inter', sans-serif;  
 }
 
 .container {
@@ -26,6 +26,7 @@
     padding: 20px;
     border: 1px solid #ccc;
     background-color: var(--dark-10);
+    overflow: hidden;
 }
 
 .container-aboutme {
