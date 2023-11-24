@@ -283,6 +283,10 @@
         display: none;
     }
 
+    .containerButtons {
+        flex-direction: column;
+    }
+
     .containerBtnLinkedIn,
     .containerBtnGitHub {
         display: flex;
@@ -292,6 +296,10 @@
         border-radius: 4px;
         width: 133px;
         height: 45px;
+    }
+
+    .containerBtnLinkedIn {
+        margin-bottom: 12px;
     }
 
     .btnIconLinkedIn,
