@@ -34,8 +34,12 @@
     margin-bottom: 60px;
 }
 
-.containerButtons {
+.containerButtons,
+.containerSecondHeader1 {
     display: flex;
+}
+
+.containerButtons {
     flex-direction: row;
 }
 
@@ -89,10 +93,6 @@
 .containerPolygon {
     flex: 1;
     width: 100%;
-}
-
-.containerSecondHeader1 {
-    display: flex;
 }
 
 .responsive-svg {

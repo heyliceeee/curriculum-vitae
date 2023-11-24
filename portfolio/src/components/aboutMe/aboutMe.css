@@ -1,0 +1,26 @@
+.containerAboutMe,
+.containerPhoto {
+    display: flex;
+}
+
+.containerAboutMePhoto,
+.containerAboutMeData {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.rectanglePhoto,
+.photo {
+    height: 367px;
+    border-radius: 4px;
+}
+
+.rectanglePhoto {
+    width: 4px;
+    background-color: var(--brand-color);
+}
+
+.photo {
+    width: 367px;
+    background-color: var(--dark-10);
+}
