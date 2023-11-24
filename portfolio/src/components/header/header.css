@@ -8,43 +8,6 @@
     margin-bottom: 10px;
 }
 
-.itemPortfolio {
-    flex: 1;
-    height: 29px;
-    font-size: 24px;
-    color: var(--brand-color);
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.itemHome,
-.itemAboutMe,
-.itemExperience {
-    margin-left: auto;
-    margin-right: 40px;
-    color: var(--dark-30);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    height: 29px;
-    display: flex;
-    align-items: center;
-}
-
-.itemProjects {
-    margin-left: auto;
-    color: var(--dark-30);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    height: 29px;
-    display: flex;
-    align-items: center;
-}
-
 .line-container {
     display: flex;
     justify-content: center;
@@ -55,4 +18,253 @@
     width: 100%;
     border: none;
     border-top: 1px solid var(--dark-20);
+}
+
+/* hi-res laptop and desktop */
+@media screen and (min-width: 1281px) {
+
+    .itemPortfolio {
+        flex: 1;
+        height: 29px;
+        font-size: 24px;
+        color: var(--brand-color);
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .itemHome,
+    .itemAboutMe,
+    .itemExperience {
+        margin-left: auto;
+        margin-right: 40px;
+        color: var(--dark-30);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        height: 29px;
+        display: flex;
+        align-items: center;
+    }
+
+    .itemProjects {
+        margin-left: auto;
+        color: var(--dark-30);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        height: 29px;
+        display: flex;
+        align-items: center;
+    }
+
+    .itemDropdown {
+        display: none;
+    }
+}
+
+/* big landscape tablet, laptop, and desktop */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+
+    .itemPortfolio {
+        flex: 1;
+        height: 29px;
+        font-size: 24px;
+        color: var(--brand-color);
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .itemHome,
+    .itemAboutMe,
+    .itemExperience {
+        margin-left: auto;
+        margin-right: 40px;
+        color: var(--dark-30);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        height: 29px;
+        display: flex;
+        align-items: center;
+    }
+
+    .itemProjects {
+        margin-left: auto;
+        color: var(--dark-30);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        height: 29px;
+        display: flex;
+        align-items: center;
+    }
+
+    .itemDropdown {
+        display: none;
+    }
+}
+
+/* tablet, landscape iPad, lo-res laptop and desktop */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .itemPortfolio {
+        flex: 1;
+        height: 29px;
+        font-size: 24px;
+        color: var(--brand-color);
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .itemHome,
+    .itemAboutMe,
+    .itemExperience {
+        margin-left: auto;
+        margin-right: 40px;
+        color: var(--dark-30);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        height: 29px;
+        display: flex;
+        align-items: center;
+    }
+
+    .itemProjects {
+        margin-left: auto;
+        color: var(--dark-30);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        height: 29px;
+        display: flex;
+        align-items: center;
+    }
+
+    .itemDropdown {
+        display: none;
+    }
+}
+
+/* portrait tablet, portrait iPad, e-reader (Nook/Kindle), landscape 800x480 phone (Android) */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+    .itemPortfolio {
+        flex: 1;
+        height: 29px;
+        font-size: 24px;
+        color: var(--brand-color);
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .itemHome,
+    .itemAboutMe,
+    .itemExperience,
+    .itemProjects {
+        display: none;
+    }
+
+    .itemDropdown {
+        display: block;
+        color: var(--dark-40);
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        display: inline-block;
+    }
+
+    .btnDropdown {
+        font-size: 20px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: var(--dark-10);
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        right: 0;
+    }
+
+    /* Mostra o conteúdo do dropdown quando o dropdown está aberto */
+    .itemDropdown:hover .dropdown-content {
+        display: block;
+    }
+}
+
+/* smartphone, portrait iPhone, portrait 480x320 phone (Android) */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .itemPortfolio {
+        flex: 1;
+        height: 29px;
+        font-size: 24px;
+        color: var(--brand-color);
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .itemHome,
+    .itemAboutMe,
+    .itemExperience,
+    .itemProjects {
+        display: none;
+    }
+
+    .itemDropdown {
+        display: block;
+    }
+
+    .itemDropdown {
+        display: block;
+        color: var(--dark-40);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btnDropdown {
+        font-size: 20px;
+    }
+
+    .itemDropdown {
+        display: block;
+        color: var(--dark-40);
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        display: inline-block;
+    }
+
+    .btnDropdown {
+        font-size: 20px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: var(--dark-10);
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        right: 0;
+    }
+
+    /* Mostra o conteúdo do dropdown quando o dropdown está aberto */
+    .itemDropdown:hover .dropdown-content {
+        display: block;
+    }
 }
