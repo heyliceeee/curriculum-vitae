@@ -1,7 +1,7 @@
 import './App.css';
 
-import Header from './pages/header/header';
-import SecondHeader from './pages/secondHeader/secondHeader';
+import Header from './components/header/header';
+import SecondHeader from './components/secondHeader/secondHeader';
 
 
 function App() {

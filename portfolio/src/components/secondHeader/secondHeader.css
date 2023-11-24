@@ -76,7 +76,8 @@
 
 .btnLinkedIn:hover,
 .btnGitHub:hover {
-    background: var(--dark-40);
+    background: var(--hover-01);
+    content: attr(href);
 }
 
 .btnIconLinkedIn,
