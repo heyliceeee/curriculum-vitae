@@ -289,11 +289,6 @@
 
     .containerBtnLinkedIn,
     .containerBtnGitHub {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: 0;
-        border-radius: 4px;
         width: 120px;
         height: 43px;
     }
@@ -304,16 +299,7 @@
 
     .btnLinkedIn,
     .btnGitHub {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 4px;
-        background: var(--dark-10);
-        color: var(--dark-40);
         font-size: 14px;
-        width: 97%;
-        height: 93%;
-        transition: background-color 0.3s ease;
     }
 
     .btnIconLinkedIn,

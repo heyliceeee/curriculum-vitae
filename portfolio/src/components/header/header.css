@@ -6,6 +6,8 @@
 .row {
     display: flex;
     margin-bottom: 10px;
+    justify-content: space-between; /* This will separate the itemsPortfolio and itemDropdown */
+    align-items: center; /* Align items vertically */
 }
 
 .line-container {
@@ -225,23 +227,6 @@
     }
 
     .itemDropdown {
-        display: block;
-    }
-
-    .itemDropdown {
-        display: block;
-        color: var(--dark-40);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .btnDropdown {
-        font-size: 20px;
-    }
-
-    .itemDropdown {
-        display: block;
         color: var(--dark-40);
         justify-content: center;
         align-items: center;
@@ -251,6 +236,8 @@
 
     .btnDropdown {
         font-size: 20px;
+        justify-content: center;
+        align-items: center;
     }
 
     .dropdown-content {
