@@ -21,11 +21,14 @@ function App() {
 
       <div id='aboutMe' className="container-aboutme">
         <AboutMe
-          itemPhoto="https://media.discordapp.net/attachments/697858645559476265/1153778896106438727/IMG_6199.jpg?ex=656f7dd5&is=655d08d5&hm=14931d438877d5a758d957495c9f327fd459e5867cd9d0b2d994050da92cc234&=&format=webp&width=566&height=701"
+          itemAboutMe="About Me"
+          itemPhoto="https://media.discordapp.net/attachments/697858645559476265/1178398966052823223/IMG_6199.jpg?ex=6576008f&is=65638b8f&hm=6fcae6033c67c9ccf299b5344da31aaf24d1971496854a15772be4918a512ac8&=&format=webp&width=701&height=701"
           itemLocation="Porto, Portugal"
           itemDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id egestas dui. Nullam finibus aliquam enim quis faucibus. Aenean ac commodo dolor, nec bibendum velit."
-          itemURLTwitter="" itemURLTwitch="" itemURLYoutube="" itemURLFigma="" itemURLCodepen="" itemURLFacebook=""
-          itemURLCV="" itemEmail="heyliceeee@gmail.com" />
+          itemURLInstagram="https://www.instagram.com/ui_ux.heyliceeee"
+          itemURLDiscord="discordapp.com/users/691070609836343347"
+          itemURLCV="" itemEmail="heyliceeee@gmail.com" 
+          btnCV="Curriculum" btnMail="E-mail"/>
       </div>
 
       <div id='experience' className="container-experience">
