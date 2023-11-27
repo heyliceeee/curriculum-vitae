@@ -22,10 +22,6 @@ function AboutMe(props) {
         window.location.href = `${props.itemURLCV}`;
     };
 
-    const handleEmailInClick = () => {
-        window.location.href = `${props.itemURLEmail}`;
-    };
-
     return (
         <div className="containerAboutMe">
             <div className="containerAboutMePhoto">
@@ -59,7 +55,7 @@ function AboutMe(props) {
                     </div>
 
                     <div className='containerBtnEmail'>
-                        <div className='btnEmail' title={props.itemEmail} onClick={handleEmailInClick}>
+                        <div className='btnEmail' title={props.itemEmail}>
                             <FiMail className='btnIconEmail' />
                             {props.btnMail}
                         </div>

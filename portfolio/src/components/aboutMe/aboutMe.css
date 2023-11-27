@@ -34,13 +34,6 @@
     background-position: center;
 }
 
-.containerAboutMeData {
-    margin-left: 180px;
-}
-
-
-
-
 .titleAboutMe {
     color: var(--dark-40);
     font-size: 24px;
@@ -62,7 +55,6 @@
 }
 
 .description {
-    width: 530px;
     color: var(--dark-30);
     font-style: normal;
     font-weight: 300;
@@ -84,10 +76,7 @@
     height: 24px;
 }
 
-.iconInstagram {
-    margin-right: 31px;
-}
-
+.iconInstagram,
 .iconDiscord {
     margin-right: 31px;
 }
@@ -97,7 +86,6 @@
     color: var(--hover-01);
     content: attr(href);
 }
-
 
 .containerButtons {
     flex-direction: row;
@@ -110,8 +98,15 @@
     align-items: center;
     flex-shrink: 0;
     border-radius: 4px;
-    width: 153px;
     height: 45px;
+}
+
+.containerBtnCV {
+    width: 100px;
+}
+
+.containerBtnEmail {
+    width: 130px;
 }
 
 .containerBtnCV {
@@ -151,21 +146,110 @@
 
 
 /* hi-res laptop and desktop */
-@media screen and (min-width: 1281px) {}
+@media screen and (min-width: 1281px) {
+
+    .containerAboutMePhoto,
+    .containerAboutMeData {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        flex-direction: row;
+    }
+
+    .containerAboutMeData {
+        margin-left: 200px;
+    }
+
+    .description {
+        width: 600px;
+    }
+
+    .iconInstagram {
+        margin-right: 31px;
+    }
+
+    .iconDiscord {
+        margin-right: 31px;
+    }
+
+}
 
 /* big landscape tablet, laptop, and desktop */
-@media screen and (min-width: 1025px) and (max-width: 1280px) {}
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+
+    .containerAboutMePhoto,
+    .containerAboutMeData {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        flex-direction: row;
+    }
+
+    .containerAboutMeData {
+        margin-left: 100px;
+    }
+
+    .description {
+        width: 400px;
+    }
+}
 
 /* tablet, landscape iPad, lo-res laptop and desktop */
-@media screen and (min-width: 768px) and (max-width: 1024px) {}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .containerAboutMePhoto,
+    .containerAboutMeData {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        flex-direction: row;
+    }
+
+    .containerAboutMePhoto {
+        display: none;
+    }
+
+    .description {
+        width: 600px;
+    }
+}
 
 /* portrait tablet, portrait iPad, e-reader (Nook/Kindle), landscape 800x480 phone (Android) */
-@media screen and (min-width: 481px) and (max-width: 767px) {}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+    .containerAboutMePhoto,
+    .containerAboutMeData {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        flex-direction: row;
+    }
+
+    .containerAboutMePhoto {
+        display: none;
+    }
+
+    .description {
+        width: 400px;
+    }
+}
 
 /* smartphone, portrait iPhone, portrait 480x320 phone (Android) */
 @media screen and (min-width: 320px) and (max-width: 480px) {
 
+    .containerAboutMePhoto,
+    .containerAboutMeData {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        flex-direction: row;
+    }
+
     .containerAboutMePhoto {
         display: none;
+    }
+
+    .description {
+        width: 260px;
+    }
+
+    .iconInstagram,
+    .iconDiscord {
+        margin-right: 17px;
     }
 }
