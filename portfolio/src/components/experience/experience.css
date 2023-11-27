@@ -1,0 +1,74 @@
+.containerInfo {
+    display: flex;
+}
+
+
+.containerCompaniesExperience {}
+
+.titleExperience {
+    color: var(--dark-40);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+}
+
+.containerCompanyExperience {
+    display: flex;
+    flex-direction: row;
+}
+
+.line {
+    background-color: var(--brand-color);
+    height: 55px;
+    width: 4px;
+}
+
+.containerCompanyName {
+    background-color: var(--dark-20);
+    height: 55px;
+    width: 190px;
+}
+
+.titleCompanyName {
+    margin-top: 15px;
+    text-align: center;
+    color: var(--dark-40);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.containerDescriptionsExperience {
+    margin-left: 88px;
+}
+
+.containerJobDate {
+    display: flex;
+}
+
+.titleJob {
+    color: var(--dark-40);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 104px;
+}
+
+.containerDate {
+    display: flex;
+}
+
+.dateStart,
+.dateEnd {
+    color: var(--dark-40);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
