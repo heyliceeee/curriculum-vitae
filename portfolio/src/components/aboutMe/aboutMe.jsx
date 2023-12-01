@@ -22,6 +22,17 @@ function AboutMe(props) {
         window.location.href = `${props.itemURLCV}`;
     };
 
+    const socialMediaIcons = [
+        { Icon: FiInstagram, className: 'iconInstagram', title: props.itemURLInstagram, onClick: handleInstagramClick },
+        { Icon: RiDiscordLine, className: 'iconDiscord', title: props.itemURLDiscord, onClick: handleDiscordClick },
+        { Icon: FiYoutube, className: 'iconDiscord' },
+        { Icon: FiFigma, className: 'iconDiscord' },
+        { Icon: FiCodepen, className: 'iconDiscord' },
+        { Icon: FiTwitch, className: 'iconDiscord' },
+        { Icon: FiTwitter, className: 'iconDiscord' },
+    ];
+
+
     return (
         <div className="containerAboutMe">
             <div className="containerAboutMePhoto">
@@ -37,13 +48,14 @@ function AboutMe(props) {
                 <div className='description'>{props.itemDescription}</div>
 
                 <div className='socialMedia'>
-                    <FiInstagram className='iconInstagram' title={props.itemURLInstagram} onClick={handleInstagramClick} />
-                    <RiDiscordLine className='iconDiscord' title={props.itemURLDiscord} onClick={handleDiscordClick} />
-                    <FiYoutube className='iconDiscord' />
-                    <FiFigma className='iconDiscord' />
-                    <FiCodepen className='iconDiscord' />
-                    <FiTwitch className='iconDiscord' />
-                    <FiTwitter className='iconDiscord' />
+                    {socialMediaIcons.map((socialMedia, index) => {
+
+                        const { Icon, className, title, onClick } = socialMedia;
+
+                        return (
+                            <Icon key={index} className={className} title={title} onClick={onClick} />
+                        );
+                    })}
                 </div>
 
                 <div className='containerButtons'>
