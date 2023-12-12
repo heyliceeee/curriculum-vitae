@@ -7,7 +7,8 @@ function Experience(props) {
     const experiences = [
         {
             id: 1,
-            company: "Núcleo Engenharia Informática - ESTG",
+            company: "NEI - ESTG",
+            companyFull: "Núcleo Engenhária Informática - Escola de Tecnologia e Gestão de Felgueiras",
             job: "Web Development Team Member",
             dateStart: "Nov 2023",
             dateEnd: "Now",
@@ -16,6 +17,7 @@ function Experience(props) {
         {
             id: 2,
             company: "Assistência Online",
+            companyFull: "Assistência Online",
             job: "Internship",
             dateStart: "Mar 2022",
             dateEnd: "Jul 2022",
@@ -24,6 +26,7 @@ function Experience(props) {
         {
             id: 3,
             company: "ANPRI",
+            companyFull: "Associação Nacional de Professores de Informática",
             job: "Internship",
             dateStart: "Apr 2020",
             dateEnd: "May 2020",
@@ -33,7 +36,8 @@ function Experience(props) {
 
         {
             id: 4,
-            company: "Famalicão Extreme Gaming",
+            company: "FEG",
+            companyFull: "Famalicão Extreme Gaming",
             job: "Assistant",
             dateStart: "5 Dec 2019",
             dateEnd: "6 Dec 2019",
@@ -42,6 +46,7 @@ function Experience(props) {
         {
             id: 5,
             company: "Apps for Good",
+            companyFull: "Apps for Good",
             job: "Participant",
             dateStart: "Mar 2019",
             dateEnd: "Jun 2019",
@@ -50,6 +55,7 @@ function Experience(props) {
         {
             id: 6,
             company: "Lantal Textiles",
+            companyFull: "Lantal Textiles",
             job: "Internship",
             dateStart: "Set 2018",
             dateEnd: "Oct 2018",
@@ -82,13 +88,28 @@ function Experience(props) {
                 </div>
 
                 <div className='containerDescriptionsExperience'>
+                    <div className='containerSidebarCompaniesExperience'>
+                        {experiences.map((experience) => (
+
+                            <div key={experience.id} className='containerSidebarCompanyExperience' onClick={() => handleExperienceClick(experience.id)}>
+                                <div className={experience.id === activeIndex ? 'containerCompanyName' : 'containerCompanyNameDisable'}>
+                                    <div className={experience.id === activeIndex ? 'titleCompanyName' : 'titleCompanyNameDisable'}>{experience.company}</div>
+                                </div>
+
+                                <div className={experience.id === activeIndex ? 'lineSidebar' : 'lineDisableSidebar'}></div>
+                            </div>
+
+                        ))}
+                    </div>
+
+
                     {experiences.map((experience) => (
                         activeIndex === experience.id && (
                             <div key={experience.id} className='containerDescriptionExperience'>
 
                                 <div className='containerJobDate'>
                                     <div className='titleJob'>{experience.job}</div>
-                                    
+
                                     <div className='containerDate'>
                                         <div className='dateStart'>{experience.dateStart}</div>
                                         <div className='dateStart'> - </div>
@@ -96,7 +117,7 @@ function Experience(props) {
                                     </div>
                                 </div>
 
-                                <div className='containerCompany'>{experience.company}</div>
+                                <div className='containerCompany'>{experience.companyFull}</div>
 
                                 <div className='containerDescription'>{experience.description}</div>
                             </div>
