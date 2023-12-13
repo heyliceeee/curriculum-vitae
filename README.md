@@ -32,7 +32,7 @@ npm start
 ___
  
 ## 🤝 Contributors 🤝
-Made with 💜 by:
+Made with ☕ and 💜 by:
 
 <table>
   <tr>
