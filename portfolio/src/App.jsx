@@ -4,6 +4,7 @@ import AboutMe from './components/aboutMe/aboutMe';
 import Header from './components/header/header';
 import SecondHeader from './components/secondHeader/secondHeader';
 import Experience from './components/experience/experience';
+import Projects from './components/projects/projects';
 
 
 function App() {
@@ -37,7 +38,7 @@ function App() {
       </div>
 
       <div id='projects' className="container-projects">
-        <p>Projects</p>
+        <Projects itemProjects="Projects" />
       </div>
 
       <div className="container-footer">
