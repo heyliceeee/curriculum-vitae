@@ -5,8 +5,8 @@ function Projects(props) {
         {
             id: 1,
             photo: "https://media.discordapp.net/attachments/697858645559476265/1188209988494176386/image.png?ex=6599b1c9&is=65873cc9&hm=26d36a3c74befb316af1914fa8c2a64e40efcc8c9b34f45de8794f2999ee4b8f&=&format=webp&quality=lossless",
-            name: "Traz Cá - Food Delivery App",
-            description: "Traz Cá connects hungry people to a variety of local restaurants quickly, conveniently and reliably.The app's objective is to create a mobile platform for iOS and Android that facilitates the food ordering process, promoting a fluid experience between restaurants and customers, encouraging local commerce and providing a convenient meal solution for users.",
+            name: "'Traz Cá' - Food Delivery App",
+            description: "The app's objective is to create a platform for iOS and Android that facilitates the food ordering process, promoting a fluid experience between restaurants and customers, encouraging local commerce and providing a convenient meal solution for users.",
             tecnologies: [
                 { name: "JavaScript" },
                 { name: "React Native" },
@@ -18,6 +18,7 @@ function Projects(props) {
 
     const backgroundImageStyle = (photo) => ({
         backgroundImage: `url(${photo})`,
+        backgroundSize: 'cover',
     });
 
 
@@ -39,12 +40,15 @@ function Projects(props) {
                             <div className='projectDescription'>{project.description}</div>
 
                             <div className='containerTecnologies'>
-                                {project.tecnologies.map((projectTecnology) => {
-
-                                    <div className='tecnology'>{projectTecnology.name}</div>
-                                })}
+                                <div className='tecnology'>
+                                    {project.tecnologies.map((projectTecnology, index) => (
+                                        <span key={index}>
+                                            {projectTecnology.name}
+                                            {index !== project.tecnologies.length - 1 && " • "}
+                                        </span>
+                                    ))}
+                                </div>
                             </div>
-
 
                         </div>
                     </div>

@@ -8,20 +8,55 @@
     margin-bottom: 26px;
 }
 
+.containerProject {
+    width: 400px;
+}
+
 .containerPhotoProject {
     border-radius: 4px;
     display: flex;
 }
 
+.containerTecnologies {
+    margin-top: 20px;
+}
+
 .lineProject {
     background-color: var(--brand-color);
-    height: 200px;
+    height: 100px;
     width: 4px;
 }
 
 
 .photoProject {
-    width: 530px;
-    height: 200px;
+    width: 400px;
+    height: 100px;
     background: var(--dark-10);
+    background-repeat: no-repeat;
+}
+
+.projectName {
+    color: var(--dark-40);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.projectDescription {
+    color: var(--dark-30);
+    font-size: 16px;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 26px;
+}
+
+.tecnology {
+    color: var(--brand-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
 }
