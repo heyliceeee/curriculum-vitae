@@ -8,11 +8,11 @@ function Experience(props) {
         {
             id: 1,
             company: "NEI - ESTG",
-            companyFull: "Núcleo Engenhária Informática - Escola de Tecnologia e Gestão de Felgueiras",
+            companyFull: "Núcleo de Estudantes de Informática - Escola de Tecnologia e Gestão de Felgueiras",
             job: "Web Development Team Member",
             dateStart: "Nov 2023",
             dateEnd: "Now",
-            description: "Development of the 'Núcleo Engenharia de Informática - ESTG' website.",
+            description: "Development of the 'Núcleo de Estudantes de Informática - ESTG' website.",
         },
         {
             id: 2,
