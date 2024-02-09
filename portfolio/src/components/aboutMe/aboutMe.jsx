@@ -1,6 +1,6 @@
 import './aboutMe.css';
 import React from "react";
-import { FiCodepen, FiDownload, FiDownloadCloud, FiFigma, FiInstagram, FiMail, FiTwitch, FiTwitter, FiYoutube } from "react-icons/fi";
+import { FiCodepen, FiDownloadCloud, FiFigma, FiInstagram, FiMail, FiTwitch, FiTwitter, FiYoutube } from "react-icons/fi";
 import { RiDiscordLine } from "react-icons/ri";
 
 

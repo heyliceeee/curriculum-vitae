@@ -8,8 +8,15 @@
     margin-bottom: 26px;
 }
 
+.containerInfo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .containerProject {
     width: 400px;
+    margin-right: 20px;
+    margin-bottom: 70px;
 }
 
 .containerPhotoProject {
@@ -59,4 +66,58 @@
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
+}
+
+
+/* hi-res laptop and desktop */
+@media screen and (min-width: 1281px) {}
+
+/* big landscape tablet, laptop, and desktop */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {}
+
+/* tablet, landscape iPad, lo-res laptop and desktop */
+@media screen and (min-width: 768px) and (max-width: 1024px) {}
+
+/* portrait tablet, portrait iPad, e-reader (Nook/Kindle), landscape 800x480 phone (Android) */
+@media screen and (min-width: 481px) and (max-width: 767px) {}
+
+/* smartphone, portrait iPhone, portrait 480x320 phone (Android) */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .containerInfo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .containerProject {
+        width: 100%;
+    }
+
+    .photoProject {
+        width: 100%;
+        height: 60px;
+    }
+
+    .lineProject {
+        background-color: var(--brand-color);
+        height: 60px;
+        width: 4px;
+    }
+
+    .projectName {
+        color: var(--dark-40);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 30px;
+    }
+
+    .projectDescription {
+        color: var(--dark-30);
+        font-size: 14px;
+        margin-top: 10px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 26px;
+    }
 }
