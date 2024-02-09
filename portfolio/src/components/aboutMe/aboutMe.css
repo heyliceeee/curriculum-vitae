@@ -1,0 +1,255 @@
+.containerAboutMe,
+.containerPhoto {
+    display: flex;
+}
+
+.containerAboutMePhoto,
+.containerAboutMeData {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-direction: row;
+}
+
+.containerPhoto {
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    width: 367px;
+}
+
+.rectanglePhoto,
+.photo {
+    height: 367px;
+}
+
+.rectanglePhoto {
+    width: 4px;
+    background-color: var(--brand-color);
+}
+
+.photo {
+    width: 100%;
+    background-color: var(--dark-10);
+    background-size: cover;
+    background-position: center;
+}
+
+.titleAboutMe {
+    color: var(--dark-40);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+
+.subtitleLocation {
+    color: var(--dark-40);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 21px;
+}
+
+.description {
+    color: var(--dark-30);
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+.socialMedia {
+    align-items: center;
+    flex: 1;
+    display: flex;
+    margin-bottom: 42px;
+}
+
+.iconDiscord,
+.iconInstagram {
+    color: var(--brand-color);
+    width: 24px;
+    height: 24px;
+}
+
+.iconInstagram,
+.iconDiscord {
+    margin-right: 31px;
+}
+
+.iconDiscord:hover,
+.iconInstagram:hover {
+    color: var(--hover-01);
+    content: attr(href);
+}
+
+.containerButtons {
+    flex-direction: row;
+}
+
+.containerBtnCV,
+.containerBtnEmail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+    height: 45px;
+}
+
+.containerBtnCV {
+    width: 100px;
+}
+
+.containerBtnEmail {
+    width: 130px;
+}
+
+.containerBtnCV {
+    background: linear-gradient(45deg, #9358F7, #10D7E2);
+    margin-right: 24px;
+}
+
+.containerBtnEmail {
+    background: linear-gradient(45deg, #D24074, #6518B4);
+}
+
+.btnCV,
+.btnEmail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: var(--dark-10);
+    color: var(--dark-40);
+    font-size: 16px;
+    width: 97%;
+    height: 93%;
+    transition: background-color 0.3s ease;
+}
+
+.btnIconCV,
+.btnIconEmail {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.btnCV:hover,
+.btnEmail:hover {
+    background: var(--hover-01);
+    content: attr(href);
+}
+
+
+/* hi-res laptop and desktop */
+@media screen and (min-width: 1281px) {
+
+    .containerAboutMePhoto,
+    .containerAboutMeData {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        flex-direction: row;
+    }
+
+    .containerAboutMeData {
+        margin-left: 100px;
+    }
+
+    .description {
+        width: 600px;
+    }
+
+    .iconInstagram {
+        margin-right: 31px;
+    }
+
+    .iconDiscord {
+        margin-right: 31px;
+    }
+
+}
+
+/* big landscape tablet, laptop, and desktop */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+
+    .containerAboutMePhoto,
+    .containerAboutMeData {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        flex-direction: row;
+    }
+
+    .containerAboutMeData {
+        margin-left: 100px;
+    }
+
+    .description {
+        width: 400px;
+    }
+}
+
+/* tablet, landscape iPad, lo-res laptop and desktop */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .containerAboutMePhoto,
+    .containerAboutMeData {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        flex-direction: row;
+    }
+
+    .containerAboutMePhoto {
+        display: none;
+    }
+
+    .description {
+        width: 600px;
+    }
+}
+
+/* portrait tablet, portrait iPad, e-reader (Nook/Kindle), landscape 800x480 phone (Android) */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+    .containerAboutMePhoto,
+    .containerAboutMeData {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        flex-direction: row;
+    }
+
+    .containerAboutMePhoto {
+        display: none;
+    }
+
+    .description {
+        width: 400px;
+    }
+}
+
+/* smartphone, portrait iPhone, portrait 480x320 phone (Android) */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .containerAboutMePhoto,
+    .containerAboutMeData {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        flex-direction: row;
+    }
+
+    .containerAboutMePhoto {
+        display: none;
+    }
+
+    .description {
+        width: 260px;
+    }
+
+    .iconInstagram,
+    .iconDiscord {
+        margin-right: 17px;
+    }
+}

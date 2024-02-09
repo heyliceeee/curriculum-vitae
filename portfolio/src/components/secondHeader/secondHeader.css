@@ -1,41 +1,9 @@
-.containerSecondHeader {
-    margin-top: 150px;
-    margin-bottom: 200px;
-}
-
-.itemHiIm {
-    color: var(--dark-40);
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: uppercase;
-    margin-bottom: 12px;
-}
-
-.itemMyName {
-    color: var(--brand-color);
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 77.45px;
-    text-transform: uppercase;
-    margin-bottom: 12px;
-}
-
-.itemJob {
-    color: var(--dark-40);
-    text-align: justify;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: uppercase;
-    margin-bottom: 60px;
+.containerButtons,
+.containerSecondHeader1 {
+    display: flex;
 }
 
 .containerButtons {
-    display: flex;
     flex-direction: row;
 }
 
@@ -57,7 +25,6 @@
 
 .containerBtnGitHub {
     background: linear-gradient(45deg, #D24074, #6518B4);
-
 }
 
 .btnLinkedIn,
@@ -74,27 +41,269 @@
     transition: background-color 0.3s ease;
 }
 
-.btnLinkedIn:hover,
-.btnGitHub:hover {
-    background: var(--dark-40);
-}
-
 .btnIconLinkedIn,
 .btnIconGitHub {
     font-size: 20px;
     margin-right: 10px;
 }
 
-.containerPolygon {
-    flex: 1;
-    width: 100%;
+.btnLinkedIn:hover,
+.btnGitHub:hover {
+    background: var(--hover-01);
+    content: attr(href);
 }
 
-.containerSecondHeader1 {
-    display: flex;
+
+/* hi-res laptop and desktop */
+@media screen and (min-width: 1281px) {
+    .containerSecondHeader {
+        margin-top: 150px;
+        margin-bottom: 200px;
+    }
+
+
+    .itemHiIm {
+        color: var(--dark-40);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
+
+    .itemMyName {
+        color: var(--brand-color);
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 77.45px;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
+
+    .itemJob {
+        color: var(--dark-40);
+        text-align: justify;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 60px;
+    }
+
+    .containerPolygon {
+        flex: 1;
+        width: 100%;
+    }
+
+    .responsive-svg {
+        width: 120%;
+        height: 100%;
+    }
 }
 
-.responsive-svg {
-    width: 120%;
-    height: 100%;
+/* big landscape tablet, laptop, and desktop */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .containerSecondHeader {
+        margin-top: 150px;
+        margin-bottom: 200px;
+    }
+
+
+    .itemHiIm {
+        color: var(--dark-40);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
+
+    .itemMyName {
+        color: var(--brand-color);
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 77.45px;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
+
+    .itemJob {
+        color: var(--dark-40);
+        text-align: justify;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 60px;
+    }
+
+    .containerPolygon {
+        flex: 1;
+        width: 100%;
+    }
+
+    .responsive-svg {
+        width: 120%;
+        height: 100%;
+    }
+}
+
+/* tablet, landscape iPad, lo-res laptop and desktop */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .containerSecondHeader {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .itemHiIm {
+        color: var(--dark-40);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
+
+    .itemMyName {
+        color: var(--brand-color);
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 77.45px;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
+
+    .itemJob {
+        color: var(--dark-40);
+        text-align: justify;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 60px;
+    }
+
+    .containerPolygon {
+        display: none;
+    }
+}
+
+/* portrait tablet, portrait iPad, e-reader (Nook/Kindle), landscape 800x480 phone (Android) */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .containerSecondHeader {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .itemHiIm {
+        color: var(--dark-40);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
+
+    .itemMyName {
+        color: var(--brand-color);
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 77.45px;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
+
+    .itemJob {
+        color: var(--dark-40);
+        text-align: justify;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+
+    .containerPolygon {
+        display: none;
+    }
+}
+
+/* smartphone, portrait iPhone, portrait 480x320 phone (Android) */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .containerSecondHeader {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .itemHiIm {
+        color: var(--dark-40);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+    }
+
+    .itemMyName {
+        color: var(--brand-color);
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 77.45px;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+    }
+
+    .itemJob {
+        color: var(--dark-40);
+        text-align: justify;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    .containerPolygon {
+        display: none;
+    }
+
+    .containerButtons {
+        flex-direction: row;
+    }
+
+    .containerBtnLinkedIn,
+    .containerBtnGitHub {
+        width: 120px;
+        height: 43px;
+    }
+
+    .containerBtnLinkedIn {
+        margin-bottom: 12px;
+    }
+
+    .btnLinkedIn,
+    .btnGitHub {
+        font-size: 14px;
+    }
+
+    .btnIconLinkedIn,
+    .btnIconGitHub {
+        font-size: 18px;
+        margin-right: 10px;
+    }
 }

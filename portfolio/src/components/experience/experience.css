@@ -1,0 +1,346 @@
+.containerInfo {
+    display: flex;
+}
+
+
+.titleExperience {
+    color: var(--dark-40);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+}
+
+.containerCompanyExperience {
+    display: flex;
+    flex-direction: row;
+}
+
+.line {
+    background-color: var(--brand-color);
+    height: 55px;
+    width: 4px;
+}
+
+.lineDisable {
+    background-color: var(--dark-20);
+    height: 60px;
+    width: 4px;
+}
+
+.containerCompanyName {
+    background-color: var(--dark-20);
+    height: 55px;
+    width: 190px;
+}
+
+.containerCompanyNameDisable {
+    background-color: var(--dark-10);
+    height: 55px;
+    width: 190px;
+}
+
+.titleCompanyName {
+    margin-top: 15px;
+    text-align: center;
+    color: var(--dark-40);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.titleCompanyNameDisable {
+    margin-top: 15px;
+    text-align: center;
+    color: var(--dark-30);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+
+.containerDescriptionsExperience {
+    margin-left: 88px;
+}
+
+.containerJobDate {
+    display: flex;
+}
+
+.titleJob {
+    color: var(--dark-40);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.containerDate {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    align-self: center;
+}
+
+.dateStart,
+.dateEnd {
+    color: var(--dark-40);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.containerCompany {
+    color: var(--brand-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 26px;
+}
+
+.containerDescription {
+    color: var(--dark-30);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 26px;
+    width: 800px;
+}
+
+.containerSidebarCompaniesExperience {
+    display: none;
+}
+
+.containerSidebarCompanyExperience {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.lineSidebar {
+    background-color: var(--brand-color);
+    height: 4px;
+    width: 100%;
+}
+
+.lineDisableSidebar {
+    background-color: var(--dark-20);
+    height: 4px;
+    width: 100%;
+}
+
+
+/* hi-res laptop and desktop */
+@media screen and (min-width: 1281px) {
+    .containerDescriptionsExperience {
+        margin-left: 40px;
+    }
+
+    .containerDescriptionExperience {
+        width: 100%;
+    }
+
+    .containerDescription {
+        color: var(--dark-30);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px;
+        margin-top: 26px;
+        width: 790px;
+    }
+}
+
+/* big landscape tablet, laptop, and desktop */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .containerDescriptionsExperience {
+        margin-left: 15px;
+    }
+
+    .containerDescriptionExperience {
+        width: 100%;
+    }
+
+    .containerDescription {
+        color: var(--dark-30);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px;
+        margin-top: 26px;
+        width: 610px;
+    }
+}
+
+/* tablet, landscape iPad, lo-res laptop and desktop */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .containerJobDate {
+        display: flex;
+        width: 100%;
+    }
+
+    .containerCompaniesExperience {
+        display: none;
+    }
+
+    .containerSidebarCompaniesExperience {
+        display: flex;
+        width: 100%;
+        overflow-x: auto;
+        /* Enable horizontal scrolling */
+        white-space: nowrap;
+        /* Prevent text from wrapping to the next line */
+    }
+
+    .containerDescriptionsExperience {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .containerDescriptionExperience {
+        margin-top: 20px;
+    }
+
+    .containerDescription {
+        color: var(--dark-30);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px;
+        margin-top: 26px;
+        width: 100%;
+    }
+}
+
+/* portrait tablet, portrait iPad, e-reader (Nook/Kindle), landscape 800x480 phone (Android) */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+    .containerJobDate {
+        display: flex;
+        width: 100%;
+    }
+
+    .containerCompaniesExperience {
+        display: none;
+    }
+
+    .containerSidebarCompaniesExperience {
+        display: flex;
+        width: 100%;
+        overflow-x: auto;
+        /* Enable horizontal scrolling */
+        white-space: nowrap;
+        /* Prevent text from wrapping to the next line */
+    }
+
+    .containerDescriptionsExperience {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .containerDescriptionExperience {
+        margin-top: 20px;
+    }
+
+    .containerDescription {
+        color: var(--dark-30);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px;
+        margin-top: 26px;
+        width: 100%;
+    }
+
+    .titleJob {
+        color: var(--dark-40);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .dateStart,
+    .dateEnd {
+        display: none;
+    }
+
+    .containerCompany {
+        color: var(--brand-color);
+        width: 100%;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        margin-top: 26px;
+    }
+}
+
+/* smartphone, portrait iPhone, portrait 480x320 phone (Android) */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .containerJobDate {
+        display: flex;
+        width: 100%;
+    }
+
+    .containerCompaniesExperience {
+        display: none;
+    }
+
+    .containerSidebarCompaniesExperience {
+        display: flex;
+        width: 100%;
+        overflow-x: auto;
+        /* Enable horizontal scrolling */
+        white-space: nowrap;
+        /* Prevent text from wrapping to the next line */
+    }
+
+    .containerDescriptionsExperience {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .containerDescriptionExperience {
+        margin-top: 20px;
+    }
+
+    .containerDescription {
+        color: var(--dark-30);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px;
+        margin-top: 26px;
+        width: 100%;
+    }
+
+    .titleJob {
+        color: var(--dark-40);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .dateStart,
+    .dateEnd {
+        display: none;
+    }
+
+    .containerCompany {
+        color: var(--brand-color);
+        width: 100%;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        margin-top: 26px;
+    }
+}
