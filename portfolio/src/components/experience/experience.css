@@ -143,6 +143,10 @@
         margin-left: 40px;
     }
 
+    .containerDescriptionExperience {
+        width: 100%;
+    }
+
     .containerDescription {
         color: var(--dark-30);
         font-size: 16px;
@@ -150,7 +154,7 @@
         font-weight: 300;
         line-height: 28px;
         margin-top: 26px;
-        width: 800px;
+        width: 790px;
     }
 }
 
@@ -158,6 +162,10 @@
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     .containerDescriptionsExperience {
         margin-left: 15px;
+    }
+
+    .containerDescriptionExperience {
+        width: 100%;
     }
 
     .containerDescription {
@@ -176,7 +184,7 @@
 
     .containerJobDate {
         display: flex;
-        width: 620px;
+        width: 100%;
     }
 
     .containerCompaniesExperience {
@@ -185,7 +193,7 @@
 
     .containerSidebarCompaniesExperience {
         display: flex;
-        width: 55%;
+        width: 100%;
         overflow-x: auto;
         /* Enable horizontal scrolling */
         white-space: nowrap;
@@ -194,6 +202,11 @@
 
     .containerDescriptionsExperience {
         margin-left: 0px;
+        width: 100%;
+    }
+
+    .containerDescriptionExperience {
+        margin-top: 20px;
     }
 
     .containerDescription {
@@ -203,7 +216,7 @@
         font-weight: 300;
         line-height: 28px;
         margin-top: 26px;
-        width: 680px;
+        width: 100%;
     }
 }
 
@@ -212,7 +225,7 @@
 
     .containerJobDate {
         display: flex;
-        width: 400px;
+        width: 100%;
     }
 
     .containerCompaniesExperience {
@@ -221,7 +234,7 @@
 
     .containerSidebarCompaniesExperience {
         display: flex;
-        width: 35%;
+        width: 100%;
         overflow-x: auto;
         /* Enable horizontal scrolling */
         white-space: nowrap;
@@ -230,6 +243,11 @@
 
     .containerDescriptionsExperience {
         margin-left: 0px;
+        width: 100%;
+    }
+
+    .containerDescriptionExperience {
+        margin-top: 20px;
     }
 
     .containerDescription {
@@ -239,7 +257,7 @@
         font-weight: 300;
         line-height: 28px;
         margin-top: 26px;
-        width: 400px;
+        width: 100%;
     }
 
     .titleJob {
@@ -257,7 +275,7 @@
 
     .containerCompany {
         color: var(--brand-color);
-        width: 36%;
+        width: 100%;
         font-style: normal;
         font-weight: 500;
         line-height: 24px;
@@ -269,7 +287,7 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
     .containerJobDate {
         display: flex;
-        width: 400px;
+        width: 100%;
     }
 
     .containerCompaniesExperience {
@@ -278,7 +296,7 @@
 
     .containerSidebarCompaniesExperience {
         display: flex;
-        width: 23%;
+        width: 100%;
         overflow-x: auto;
         /* Enable horizontal scrolling */
         white-space: nowrap;
@@ -287,6 +305,11 @@
 
     .containerDescriptionsExperience {
         margin-left: 0px;
+        width: 100%;
+    }
+
+    .containerDescriptionExperience {
+        margin-top: 20px;
     }
 
     .containerDescription {
@@ -296,7 +319,7 @@
         font-weight: 300;
         line-height: 28px;
         margin-top: 26px;
-        width: 260px;
+        width: 100%;
     }
 
     .titleJob {
@@ -314,7 +337,7 @@
 
     .containerCompany {
         color: var(--brand-color);
-        width: 25%;
+        width: 100%;
         font-style: normal;
         font-weight: 500;
         line-height: 24px;
