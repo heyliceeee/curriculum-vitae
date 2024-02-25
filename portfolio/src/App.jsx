@@ -16,7 +16,7 @@ function App() {
         <SecondHeader id='secondHeader'
           itemHiIm="Hi👋, I'm"
           itemMyName="Alice Dias"
-          itemJob="Full-Stack Developer."
+          itemJob="Software Engineering Degree Student"
           itemURLLinkedIn="https://www.linkedin.com/in/heyliceeee/"
           itemURLGitHub="https://github.com/heyliceeee" />
       </div>
@@ -24,11 +24,11 @@ function App() {
       <div id='aboutMe' className="container-aboutme">
         <AboutMe
           itemAboutMe="About Me"
-          itemPhoto="https://media.discordapp.net/attachments/697858645559476265/1178398966052823223/IMG_6199.jpg?ex=6576008f&is=65638b8f&hm=6fcae6033c67c9ccf299b5344da31aaf24d1971496854a15772be4918a512ac8&=&format=webp&width=701&height=701"
+          itemPhoto="https://media.discordapp.net/attachments/697858645559476265/1178398966052823223/IMG_6199.jpg?ex=65e4be8f&is=65d2498f&hm=2fdb3b78e704b49209e9283607140d81672201058934122c756387f9937c4e1b&=&format=webp&width=701&height=701"
           itemLocation="Porto, Portugal"
           itemDescription="A passionate Software Engineering degree student about programming and technology, with a solid background in Web and Mobile development."
           itemURLInstagram="https://www.instagram.com/ui_ux.heyliceeee"
-          itemURLDiscord="discordapp.com/users/691070609836343347"
+          itemURLDiscord=""
           itemURLCV="https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/maria+alice-moreira+dias/3fd4415f-29fa-4f6d-acb8-da57a67d8931?view=html" itemEmail="heyliceeee@gmail.com"
           btnCV="CV" btnMail="E-mail" />
       </div>

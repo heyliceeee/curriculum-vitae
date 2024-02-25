@@ -40,6 +40,8 @@
     height: 100px;
     background: var(--dark-10);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .projectName {

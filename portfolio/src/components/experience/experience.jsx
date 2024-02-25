@@ -64,7 +64,7 @@ function Experience(props) {
     ];
 
     const handleExperienceClick = (experienceId) => {
-        setActiveIndex(experienceId == activeIndex ? 1 : experienceId);
+        setActiveIndex(experienceId === activeIndex ? 1 : experienceId);
     };
 
 
