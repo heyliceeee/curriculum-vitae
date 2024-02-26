@@ -4,9 +4,6 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/heyliceeee/portfolio)
 ___
 
-upload photo
-___
-
 ## ⚒️ Languages-Frameworks-Tools ⚒️
 - React (react-icons, react-router-dom)
 - Javascript
