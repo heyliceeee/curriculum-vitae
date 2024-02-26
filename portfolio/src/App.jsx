@@ -1,10 +1,10 @@
 import './App.css';
 import AboutMe from './components/aboutMe/aboutMe';
-
 import Header from './components/header/header';
 import SecondHeader from './components/secondHeader/secondHeader';
 import Experience from './components/experience/experience';
 import Projects from './components/projects/projects';
+import Footer from './components/footer/footer';
 
 
 function App() {
@@ -42,7 +42,7 @@ function App() {
       </div>
 
       <div className="container-footer">
-        <p>Footer</p>
+        <Footer author="Alice Dias" />
       </div>
     </div>
   );

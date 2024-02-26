@@ -14,7 +14,7 @@
 
     --hover-01: #303030;
 
-    --font-inter: 'Inter', sans-serif;  
+    --font-inter: 'Inter', sans-serif;
 }
 
 .container {
@@ -26,7 +26,6 @@
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
     background-color: var(--dark-10);
     overflow: hidden;
 }
@@ -35,7 +34,6 @@
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
     background-color: var(--dark-20);
 }
 
@@ -43,7 +41,6 @@
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
     background-color: var(--dark-10);
 }
 
@@ -51,7 +48,6 @@
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
     background-color: var(--dark-20);
 }
 
@@ -59,6 +55,5 @@
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
     background-color: var(--dark-10);
 }
