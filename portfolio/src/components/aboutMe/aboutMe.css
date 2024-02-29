@@ -74,6 +74,7 @@
     color: var(--brand-color);
     width: 24px;
     height: 24px;
+    cursor: pointer;
 }
 
 .iconInstagram,
@@ -130,6 +131,7 @@
     width: 97%;
     height: 93%;
     transition: background-color 0.3s ease;
+    cursor: pointer;
 }
 
 .btnIconCV,
