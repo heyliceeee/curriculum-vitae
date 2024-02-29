@@ -1,4 +1,4 @@
-# Portfolio
+# Curriculum Vitae
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/heyliceeee/portfolio)
 ![GitHub language count](https://img.shields.io/github/languages/count/heyliceeee/portfolio)
@@ -9,12 +9,12 @@ ___
 - Javascript
 ____
 
-## 🚀 Installing Portfolio 🚀
+## 🚀 Installing Curriculum Vitae 🚀
 To use, follow the steps:
 
 #### Clone repository
 ```bash
-git clone https://github.com/heyliceeee/portfolio.git
+git clone https://github.com/heyliceeee/curriculum-vitae.git
 ```
 
 #### Install dependencies
