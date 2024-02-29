@@ -34,12 +34,14 @@
     background-color: var(--dark-20);
     height: 55px;
     width: 190px;
+    cursor: pointer;
 }
 
 .containerCompanyNameDisable {
     background-color: var(--dark-10);
     height: 55px;
     width: 190px;
+    cursor: pointer;
 }
 
 .titleCompanyName {

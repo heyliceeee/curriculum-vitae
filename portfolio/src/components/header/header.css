@@ -48,6 +48,7 @@
         height: 29px;
         display: flex;
         align-items: center;
+        cursor: pointer;
     }
 
     .itemProjects {
@@ -60,6 +61,7 @@
         height: 29px;
         display: flex;
         align-items: center;
+        cursor: pointer;
     }
 
     .itemDropdown {
@@ -78,6 +80,7 @@
         font-style: normal;
         font-weight: 500;
         line-height: normal;
+        cursor: pointer;
     }
 
     .itemHome,
@@ -93,6 +96,7 @@
         height: 29px;
         display: flex;
         align-items: center;
+        cursor: pointer;
     }
 
     .itemProjects {
@@ -105,6 +109,7 @@
         height: 29px;
         display: flex;
         align-items: center;
+        cursor: pointer;
     }
 
     .itemDropdown {
@@ -138,6 +143,7 @@
         height: 29px;
         display: flex;
         align-items: center;
+        cursor: pointer;
     }
 
     .itemProjects {
@@ -150,6 +156,7 @@
         height: 29px;
         display: flex;
         align-items: center;
+        cursor: pointer;
     }
 
     .itemDropdown {
@@ -184,6 +191,7 @@
         align-items: center;
         position: relative;
         display: inline-block;
+        cursor: pointer;
     }
 
     .btnDropdown {
@@ -232,6 +240,7 @@
         align-items: center;
         position: relative;
         display: inline-block;
+        cursor: pointer;
     }
 
     .btnDropdown {
