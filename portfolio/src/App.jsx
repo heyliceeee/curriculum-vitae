@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="container">
       <div className="container-header">
-        <Header itemPortfolio="Portfolio" itemHome="Home" itemAboutMe="About Me" itemExperience="Experience" itemProjects="Projects" />
+        <Header itemPortfolio="CV" itemHome="Home" itemAboutMe="About Me" itemExperience="Experience" itemProjects="Projects" />
 
         <SecondHeader id='secondHeader'
           itemHiIm="Hi👋, I'm"
