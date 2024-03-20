@@ -22,6 +22,13 @@
     border-top: 1px solid var(--dark-20);
 }
 
+.itemHome:hover,
+    .itemAboutMe:hover,
+    .itemExperience:hover,
+    .itemProjects:hover {
+        color: #EBEBEB;
+    }
+
 /* hi-res laptop and desktop */
 @media screen and (min-width: 1281px) {
 

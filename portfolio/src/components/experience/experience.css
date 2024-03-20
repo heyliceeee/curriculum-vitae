@@ -2,6 +2,9 @@
     display: flex;
 }
 
+.titleCompanyNameDisable:hover {
+    color: #EBEBEB;
+}
 
 .titleExperience {
     color: var(--dark-40);
