@@ -24,7 +24,7 @@ function App() {
       <div id='aboutMe' className="container-aboutme">
         <AboutMe
           itemAboutMe="About Me"
-          itemPhoto="https://media.discordapp.net/attachments/697858645559476265/1178398966052823223/IMG_6199.jpg?ex=65e4be8f&is=65d2498f&hm=2fdb3b78e704b49209e9283607140d81672201058934122c756387f9937c4e1b&=&format=webp&width=701&height=701"
+          itemPhoto="eu.jpg"
           itemLocation="Porto, Portugal"
           itemDescription="A passionate Software Engineering degree student about programming and technology, with a solid background in Web and Mobile development."
           itemURLInstagram="https://www.instagram.com/ui_ux.heyliceeee"

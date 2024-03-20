@@ -7,7 +7,7 @@ import { RiDiscordLine } from "react-icons/ri";
 
 function AboutMe(props) {
     const backgroundImageStyle = {
-        backgroundImage: `url(${props.itemPhoto})`,
+        backgroundImage: `url(${require('../../assets/'+props.itemPhoto)})`,
     };
 
     const handleInstagramClick = () => {
