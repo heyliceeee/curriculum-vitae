@@ -1,0 +1,352 @@
+.containerInfoEducation {
+    display: flex;
+}
+
+.titleCompanyNameDisableEducation:hover {
+    color: #EBEBEB;
+}
+
+.titleEducation {
+    color: var(--dark-40);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+}
+
+.containerCompanyEducation {
+    display: flex;
+    flex-direction: row;
+}
+
+.lineEducation {
+    background-color: var(--brand-color);
+    height: 55px;
+    width: 4px;
+}
+
+.lineDisableEducation {
+    background-color: var(--dark-10);
+    height: 60px;
+    width: 4px;
+}
+
+.containerCompanyNameEducation {
+    background-color: var(--dark-10);
+    height: 55px;
+    width: 190px;
+    cursor: pointer;
+}
+
+.containerCompanyNameDisableEducation {
+    background-color: var(--dark-20);
+    height: 55px;
+    width: 190px;
+    cursor: pointer;
+}
+
+.titleCompanyNameEducation {
+    margin-top: 15px;
+    text-align: center;
+    color: var(--dark-40);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.titleCompanyNameDisableEducation {
+    margin-top: 15px;
+    text-align: center;
+    color: var(--dark-30);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+
+.containerDescriptionsEducation {
+    margin-left: 88px;
+}
+
+.containerJobDateEducation {
+    display: flex;
+}
+
+.titleJobEducation{
+    color: var(--dark-40);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.containerDateEducation {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    align-self: center;
+}
+
+.dateStartEducation,
+.dateEndEducation {
+    color: var(--dark-40);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.containerCompanyEducation {
+    color: var(--brand-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 26px;
+    margin-bottom: 0px;
+}
+
+.containerDescriptionEducation {
+    color: var(--dark-30);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 26px;
+    width: 800px;
+}
+
+.containerSidebarCompaniesEducation{
+    display: none;
+}
+
+.containerSidebarCompanyEducation {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.lineSidebarEducation {
+    background-color: var(--brand-color);
+    height: 4px;
+    width: 100%;
+}
+
+.lineDisableSidebarEducation {
+    background-color: var(--dark-20);
+    height: 4px;
+    width: 100%;
+}
+
+
+/* hi-res laptop and desktop */
+@media screen and (min-width: 1281px) {
+    .containerDescriptionsEducation {
+        margin-left: 40px;
+    }
+
+    .containerDescriptionEducation {
+        width: 100%;
+    }
+
+    .containerDescriptionEducation {
+        color: var(--dark-30);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px;
+        margin-top: 26px;
+        width: 790px;
+    }
+}
+
+/* big landscape tablet, laptop, and desktop */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .containerDescriptionsEducation {
+        margin-left: 15px;
+    }
+
+    .containerDescriptionEducation {
+        width: 100%;
+    }
+
+    .containerDescriptionEducation {
+        color: var(--dark-30);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px;
+        margin-top: 26px;
+        width: 610px;
+    }
+}
+
+/* tablet, landscape iPad, lo-res laptop and desktop */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .containerJobDateEducation {
+        display: flex;
+        width: 100%;
+    }
+
+    .containerCompaniesEducation {
+        display: none;
+    }
+
+    .containerSidebarCompaniesEducation {
+        display: flex;
+        width: 100%;
+        overflow-x: auto;
+        /* Enable horizontal scrolling */
+        white-space: nowrap;
+        /* Prevent text from wrapping to the next line */
+    }
+
+    .containerDescriptionsEducation {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .containerDescriptionEducation {
+        margin-top: 20px;
+    }
+
+    .containerDescriptionEducation {
+        color: var(--dark-30);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px;
+        margin-top: 26px;
+        width: 100%;
+    }
+}
+
+/* portrait tablet, portrait iPad, e-reader (Nook/Kindle), landscape 800x480 phone (Android) */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+    .containerJobDateEducation {
+        display: flex;
+        width: 100%;
+    }
+
+    .containerCompaniesEducation {
+        display: none;
+    }
+
+    .containerSidebarCompaniesEducation {
+        display: flex;
+        width: 100%;
+        overflow-x: auto;
+        /* Enable horizontal scrolling */
+        white-space: nowrap;
+        /* Prevent text from wrapping to the next line */
+    }
+
+    .containerDescriptionsEducation {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .containerDescriptionEducation {
+        margin-top: 20px;
+    }
+
+    .containerDescriptionEducation {
+        color: var(--dark-30);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px;
+        margin-top: 26px;
+        width: 100%;
+    }
+
+    .titleJobEducation {
+        color: var(--dark-40);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .dateStartEducation,
+    .dateEndEducation {
+        display: none;
+    }
+
+    .containerCompanyEducation {
+        color: var(--brand-color);
+        width: 100%;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        margin-top: 26px;
+    }
+}
+
+/* smartphone, portrait iPhone, portrait 480x320 phone (Android) */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .containerJobDateEducation {
+        display: flex;
+        width: 100%;
+    }
+
+    .containerCompaniesEducation {
+        display: none;
+    }
+
+    .containerSidebarCompaniesEducation {
+        display: flex;
+        width: 100%;
+        overflow-x: auto;
+        /* Enable horizontal scrolling */
+        white-space: nowrap;
+        /* Prevent text from wrapping to the next line */
+    }
+
+    .containerDescriptionsEducation {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .containerDescriptionEducation {
+        margin-top: 20px;
+    }
+
+    .containerDescriptionEducation {
+        color: var(--dark-30);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px;
+        margin-top: 26px;
+        width: 100%;
+    }
+
+    .titleJobEducation {
+        color: var(--dark-40);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .dateStartEducation,
+    .dateEndEducation {
+        display: none;
+    }
+
+    .containerCompanyEducation {
+        color: var(--brand-color);
+        width: 100%;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        margin-top: 26px;
+    }
+}

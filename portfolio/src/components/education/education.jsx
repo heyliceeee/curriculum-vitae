@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../experience/experience.css';
+import './education.css';
 
 function Education(props)
 {
@@ -11,17 +11,17 @@ function Education(props)
             company: "Degree Student",
             job: "Software Engineering Degree Student",
             companyFull: "Escola Superior de Tecnologia e Gestão",
-            dateStart: "Oct 2022",
+            dateStart: "2022",
             dateEnd: "Now",
             description: "Agile Methodologies • Data Structures • Artificial Intelligence • Multithreading • Java • Python • C",
         },
         {
             id: 2,
             company: "PHTC",
-            job: "PHTC in Development for the Web and Mobile Devices",
+            job: "PHTC Development Web and Mobile Devices",
             companyFull: "Escola Superior de Tecnologia e Gestão",
-            dateStart: "Oct 2020",
-            dateEnd: "Jul 2022",
+            dateStart: "2020",
+            dateEnd: "2022",
             description: "Node.js • UML • Ionic • Bootstrap • JavaScript • iOS Development • Android Development • React.js • Swift • MongoDB • AngularJS • PHP • SQL",
         },
         {
@@ -49,9 +49,9 @@ function Education(props)
                     {educations.map((education) => (
 
                         <div key={education.id} className='containerCompanyExperience' onClick={() => handleEducationClick(education.id)}>
-                            <div className={education.id === activeIndex ? 'line' : 'lineDisable'}></div>
+                            <div className={education.id === activeIndex ? 'line' : 'lineDisableEducation'}></div>
 
-                            <div className={education.id === activeIndex ? 'containerCompanyName' : 'containerCompanyNameDisable'}>
+                            <div className={education.id === activeIndex ? 'containerCompanyNameEducation' : 'containerCompanyNameDisableEducation'}>
                                 <div className={education.id === activeIndex ? 'titleCompanyName' : 'titleCompanyNameDisable'}>{education.company}</div>
                             </div>
                         </div>
@@ -63,7 +63,7 @@ function Education(props)
                         {educations.map((education) => (
 
                             <div key={education.id} className='containerSidebarCompanyExperience' onClick={() => handleEducationClick(education.id)}>
-                                <div className={education.id === activeIndex ? 'containerCompanyName' : 'containerCompanyNameDisable'}>
+                                <div className={education.id === activeIndex ? 'containerCompanyNameEducation' : 'containerCompanyNameDisableEducation'}>
                                     <div className={education.id === activeIndex ? 'titleCompanyName' : 'titleCompanyNameDisable'}>{education.company}</div>
                                 </div>
 
