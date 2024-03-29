@@ -31,6 +31,7 @@ function Header(props) {
                 <div className="itemHome" onClick={() => scrollToSection('secondHeader')}>{props.itemHome}</div>
                 <div className="itemAboutMe" onClick={() => scrollToSection('aboutMe')}>{props.itemAboutMe}</div>
                 <div className="itemExperience" onClick={() => scrollToSection('experience')}>{props.itemExperience}</div>
+                <div className="itemEducation" onClick={() => scrollToSection('education')}>{props.itemEducation}</div>
                 <div className="itemProjects" onClick={() => scrollToSection('projects')}>{props.itemProjects}</div>
 
                 <div className="itemDropdown">
@@ -41,6 +42,7 @@ function Header(props) {
                             <p className='dropdownItemHome' onClick={() => scrollToSection('secondHeader')}>{props.itemHome}</p>
                             <p className='dropdownItemAboutMe' onClick={() => scrollToSection('aboutMe')}>{props.itemAboutMe}</p>
                             <p className='dropdownItemExperience' onClick={() => scrollToSection('experience')}>{props.itemExperience}</p>
+                            <p className='dropdownItemEducation' onClick={() => scrollToSection('education')}>{props.itemEducation}</p>
                             <p className='dropdownItemProjects' onClick={() => scrollToSection('projects')}>{props.itemProjects}</p>
                         </div>
                     )}

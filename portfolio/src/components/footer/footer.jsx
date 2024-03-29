@@ -1,4 +1,6 @@
 import './footer.css';
+import '../header/header.css';
+
 
 function Footer(props) {
 
@@ -7,6 +9,9 @@ function Footer(props) {
 
     return (
         <div className='containerFooter'>
+            <div className="line-container">
+                <hr className="horizontal-line" />
+            </div>
             @ {currentYear} - {props.author}
         </div>
     );
