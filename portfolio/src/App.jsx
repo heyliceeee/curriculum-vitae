@@ -3,6 +3,7 @@ import AboutMe from './components/aboutMe/aboutMe';
 import Header from './components/header/header';
 import SecondHeader from './components/secondHeader/secondHeader';
 import Experience from './components/experience/experience';
+import Education from './components/education/education';
 import Projects from './components/projects/projects';
 import Footer from './components/footer/footer';
 
@@ -11,7 +12,7 @@ function App() {
   return (
     <div className="container">
       <div className="container-header">
-        <Header itemPortfolio="CV" itemHome="Home" itemAboutMe="About Me" itemExperience="Experience" itemProjects="Projects" />
+        <Header itemPortfolio="CV" itemHome="Home" itemAboutMe="About Me" itemExperience="Experience" itemEducation="Education" itemProjects="Projects" />
 
         <SecondHeader id='secondHeader'
           itemHiIm="Hi👋, I'm"
@@ -35,6 +36,10 @@ function App() {
 
       <div id='experience' className="container-experience">
         <Experience itemExperience="Experience" />
+      </div>
+
+      <div id='education' className="container-education">
+        <Education itemEducation="Education" />
       </div>
 
       <div id='projects' className="container-projects">
