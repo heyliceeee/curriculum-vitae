@@ -29,7 +29,7 @@ function App() {
           itemDescription="A passionate Software Engineering degree student about programming and technology, with a solid background in Web and Mobile development."
           itemURLInstagram="https://www.instagram.com/ui_ux.heyliceeee"
           itemURLDiscord=""
-          itemURLCV="https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/maria+alice-moreira+dias/3fd4415f-29fa-4f6d-acb8-da57a67d8931?view=html" itemEmail="heyliceeee@gmail.com"
+          itemURLCV="https://europa.eu/europass/eportfolio/screen/share/e4f683fa-fb2b-443f-a481-f04cd75067ea?lang=en" itemEmail="alicedias2002@hotmail.com"
           btnCV="CV" btnMail="E-mail" />
       </div>
 
