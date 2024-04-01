@@ -57,17 +57,32 @@ function Projects(props) {
             id: 5,
             photo: "spaceFlightNews.png",
             name: "Space Flight News",
-            description: "Space exploration news iOS app.",
+            description: "This is an iOS application allows users to access news and information about the aerospace field. The app utilizes an API to provide updated data on rocket launches, space missions, astronomical discoveries, and more.",
             tecnologies: [
                 { name: "Swift" },
                 { name: "API" },
+                { name: "Firebase" },
             ],
             URL: "https://github.com/heyliceeee/spaceFlightNews"
+        },
+        {
+            id: 6,
+            photo: "smsSystem.png",
+            name: "SMS System",
+            description: "The SMS System is a scheduled and automatic SMS sending system. It is a project that constitutes: API, Database, Backend and App. The system was developed during the 'Assistência Online' internship and was inspired by the problem of a company customer.",
+            tecnologies: [
+                { name: "C#" },
+                { name: "ASP.NET Core" },
+                { name: "SQL Server" },
+                { name: "Xamarin" },
+                { name: "IIS" },
+            ],
+            URL: "#"
         },
     ];
 
     const backgroundImageStyle = (photo) => ({
-        backgroundImage: `url(${require('../../assets/'+photo)})`,
+        backgroundImage: `url(${require('../../assets/' + photo)})`,
         backgroundSize: 'cover',
     });
 
