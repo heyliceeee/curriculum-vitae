@@ -26,7 +26,7 @@ function App() {
         <AboutMe
           itemAboutMe="About Me"
           itemPhoto="eu.jpg"
-          itemLocation="Porto, Portugal"
+          itemLocation="Oporto, Portugal"
           itemDescription="A passionate Software Engineering degree student about programming and technology, with a solid background in Web and Mobile development."
           itemURLInstagram="https://www.instagram.com/ui_ux.heyliceeee"
           itemURLDiscord=""
