@@ -30,16 +30,12 @@ function App() {
           itemDescription="A passionate Software Engineering degree student about programming and technology, with a solid background in Web and Mobile development."
           itemURLInstagram="https://www.instagram.com/ui_ux.heyliceeee"
           itemURLDiscord=""
-          itemURLCV="https://europa.eu/europass/eportfolio/screen/share/e4f683fa-fb2b-443f-a481-f04cd75067ea?lang=en" itemEmail="alicedias2002@hotmail.com"
+          itemURLCV="https://drive.google.com/file/d/1dWZk_TecZ1HoKV6y1lu_OSMALxDr3hyE/view?usp=sharing" itemEmail="alicedias2002@hotmail.com"
           btnCV="CV" btnMail="E-mail" />
       </div>
 
       <div id='experience' className="container-experience">
         <Experience itemExperience="Experience" />
-      </div>
-
-      <div id='education' className="container-education">
-        <Education itemEducation="Education" />
       </div>
 
       <div id='projects' className="container-projects">
