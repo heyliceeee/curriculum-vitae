@@ -11,7 +11,7 @@ function Experience(props) {
             companyFull: "Núcleo de Estudantes de Informática - ESTG",
             job: "Web Development Team Member",
             dateStart: "Nov 2023",
-            dateEnd: "Now",
+            dateEnd: "May 2024",
             description: "Development of the 'Núcleo de Estudantes de Informática - Escola de Tecnologia e Gestão de Felgueiras' website.",
         },
         {
