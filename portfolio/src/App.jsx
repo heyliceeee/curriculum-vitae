@@ -30,7 +30,7 @@ function App() {
           itemDescription="A passionate Software Engineering degree student about programming and technology, with a solid background in Web and Mobile development."
           itemURLInstagram="https://www.instagram.com/ui_ux.heyliceeee"
           itemURLDiscord=""
-          itemURLCV="https://drive.google.com/file/d/1dWZk_TecZ1HoKV6y1lu_OSMALxDr3hyE/view?usp=sharing" itemEmail="alicedias2002@hotmail.com"
+          itemURLCV="https://www.canva.com/design/DAGIM2-qj9k/S2V-h5-EaHeLg9Jzbjqklg/edit?utm_content=DAGIM2-qj9k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" itemEmail="alicedias2002@hotmail.com"
           btnCV="CV" btnMail="E-mail" />
       </div>
 
