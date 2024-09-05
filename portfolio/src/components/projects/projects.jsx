@@ -7,6 +7,19 @@ function Projects(props) {
     const projects = [
         {
             id: 1,
+            photo: "sweetRicers.png",
+            name: "Sweet Ricers",
+            description: "Website about a Portuguese Counter Strike 2 community.",
+            tecnologies: [
+                { name: "React" },
+                { name: "JavaScript" },
+                { name: "Ant Design" },
+                { name: "CSS" },
+            ],
+            URL: "https://sweet-ricers.vercel.app/"
+        },
+        {
+            id: 2,
             photo: "robocode.jpg",
             name: "Robocode",
             description: "Robot controlled by Machine Learning and Genetic Algorithm.",
@@ -19,7 +32,7 @@ function Projects(props) {
             URL: "https://github.com/heyliceeee/robocodeIA"
         },
         {
-            id: 2,
+            id: 3,
             photo: "nei.png",
             name: "NEI Website",
             description: "Development of the 'Núcleo de Estudantes de Informática - Escola de Tecnologia e Gestão de Felgueiras' website.",
@@ -31,7 +44,7 @@ function Projects(props) {
             URL: "https://github.com/nei-estg/nei-website"
         },
         {
-            id: 3,
+            id: 4,
             photo: "trazCa.png",
             name: "'Traz Cá' - Food Delivery App",
             description: "A platform for iOS and Android that facilitates the food ordering process, promoting a fluid experience between restaurants and customers, encouraging local commerce and providing a convenient meal solution for users.",
@@ -43,7 +56,7 @@ function Projects(props) {
             URL: "https://github.com/heyliceeee/trazcaApp"
         },
         {
-            id: 4,
+            id: 5,
             photo: "captureTheFlag.jpg",
             name: "Capture the Flag Game",
             description: "Game developed with generic ADT.",
@@ -54,7 +67,7 @@ function Projects(props) {
             URL: "https://github.com/heyliceeee/capture-the-flag"
         },
         {
-            id: 5,
+            id: 6,
             photo: "generatePassword.png",
             name: "Password Generator",
             description: "A platform for iOS and Android that provide a safe and effective tool for generating passwords.",
@@ -67,7 +80,7 @@ function Projects(props) {
             URL: "https://github.com/heyliceeee/passwordGenerator"
         },
         {
-            id: 6,
+            id: 7,
             photo: "spaceFlightNews.png",
             name: "Space Flight News",
             description: "This is an iOS application allows users to access news and information about the aerospace field. The app utilizes an API to provide updated data on rocket launches, space missions, astronomical discoveries, and more.",
@@ -79,7 +92,7 @@ function Projects(props) {
             URL: "https://github.com/heyliceeee/spaceFlightNews"
         },
         {
-            id: 7,
+            id: 8,
             photo: "smsSystem.png",
             name: "SMS System",
             description: "The SMS System is a scheduled and automatic SMS sending system. It is a project that constitutes: API, Database, Backend and App. The system was developed during the 'Assistência Online' internship and was inspired by the problem of a company customer.",
