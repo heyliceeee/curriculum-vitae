@@ -7,6 +7,19 @@ function Projects(props) {
     const projects = [
         {
             id: 1,
+            photo: "crossfit-cards.png",
+            name: "Crossfit Cards",
+            description: "Web application that turns CrossFit workouts into a dynamic card game.",
+            tecnologies: [
+                { name: "Angular" },
+                { name: "TypeScript" },
+                { name: "Bootstrap" },
+                { name: "CSS" },
+            ],
+            URL: "https://github.com/heyliceeee/crossfit-cards"
+        },
+        {
+            id: 1,
             photo: "sweetRicers.png",
             name: "Sweet Ricers",
             description: "Website about a Portuguese Counter Strike 2 community.",
@@ -41,7 +54,7 @@ function Projects(props) {
                 { name: "TypeScript" },
                 { name: "Material-UI" },
             ],
-            URL: "https://github.com/nei-estg/nei-website"
+            URL: "https://nei-estg.org/"
         },
         {
             id: 4,
