@@ -1,42 +1,28 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './education.css';
+
+const API_URL = process.env.REACT_APP_API_URL;
 
 function Education(props)
 {
-    const [activeIndex, setActiveIndex] = useState(1);
-
-    const educations = [
-        {
-            id: 1,
-            company: "Degree Student",
-            job: "Software Engineering Degree Student",
-            companyFull: "Escola Superior de Tecnologia e Gestão",
-            dateStart: "2022",
-            dateEnd: "Now",
-            description: "Agile Methodologies • Data Structures • Artificial Intelligence • Multithreading • Java • Python • C",
-        },
-        {
-            id: 2,
-            company: "PHTC",
-            job: "PHTC Development Web and Mobile Devices",
-            companyFull: "Escola Superior de Tecnologia e Gestão",
-            dateStart: "2020",
-            dateEnd: "2022",
-            description: "Node.js • UML • Ionic • Bootstrap • JavaScript • iOS Development • Android Development • React.js • Swift • MongoDB • AngularJS • PHP • SQL",
-        },
-        {
-            id: 3,
-            company: "Professional Course",
-            job: "Professional Computer Programmer Course",
-            companyFull: "Escola Secundária de Tomaz Pelayo",
-            dateStart: "2017",
-            dateEnd: "2020",
-            description: "Android Development • Java • HTML • CSS • PHP • SQL",
-        },
-    ];
+    const [educations, setEducations] = useState([]);
+    const [activeIndex, setActiveIndex] = useState(null);
+    
+    useEffect(() => {
+        fetch(`${API_URL}/education`)
+        .then((res) => res.json())
+        .then((data) => {
+            setEducations(data); //atualiza a lista de educations
+    
+          if (data.length > 0) {
+            setActiveIndex(data[0]?.id); //Define o primeiro ID como ativo
+          }
+        })
+        .catch((err) => console.error("Error searching for educations:", err));
+      }, []);
 
     const handleEducationClick = (educationId) => {
-        setActiveIndex(educationId === activeIndex ? 1 : educationId);
+        setActiveIndex(educationId === activeIndex ? educations[0]?.id : educationId);
     };
 
 
@@ -88,7 +74,7 @@ function Education(props)
                                     </div>
                                 </div>
 
-                                <div className='containerCompany'>{education.companyFull}</div>
+                                <div className='containerCompany'>{education.companyFullname}</div>
 
                                 <div className='containerDescription'>{education.description}</div>
                             </div>

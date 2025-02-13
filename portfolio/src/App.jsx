@@ -38,6 +38,10 @@ function App() {
         <Experience itemExperience="Experience" />
       </div>
 
+      <div id='education' className="container-education">
+        <Education itemEducation="Education" />
+      </div>
+
       <div id='projects' className="container-projects">
         <Projects itemProjects="Projects" />
       </div>
