@@ -1,19 +1,27 @@
 import React, { useEffect, useState } from "react";
 import "./experience.css";
 
+const API_URL = process.env.REACT_APP_API_URL;
+
 function Experience(props) {
-  const [activeIndex, setActiveIndex] = useState(1);
   const [experiences, setExperiences] = useState([]);
+  const [activeIndex, setActiveIndex] = useState(null);
 
   useEffect(() => {
-    fetch(process.env.API_URL+"/experience")
+    fetch(`${API_URL}/experience`)
     .then((res) => res.json())
-    .then((data) => setExperiences(data))
+    .then((data) => {
+      setExperiences(data); //atualiza a lista de experiências
+
+      if (data.length > 0) {
+        setActiveIndex(data[0]?.id); //Define o primeiro ID como ativo
+      }
+    })
     .catch((err) => console.error("Error searching for experiences:", err));
   }, []);
 
   const handleExperienceClick = (experienceId) => {
-    setActiveIndex(experienceId === activeIndex ? 1 : experienceId);
+    setActiveIndex(experienceId === activeIndex ? experiences[0]?.id : experienceId);
   };
 
   return (
