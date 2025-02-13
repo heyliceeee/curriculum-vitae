@@ -118,7 +118,7 @@ function Experience(props) {
                   </div>
 
                   <div className="containerCompany">
-                    {experience.companyFull}
+                    {experience.companyFullname}
                   </div>
 
                   <div className="containerDescription">
